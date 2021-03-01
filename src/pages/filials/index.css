@@ -1,0 +1,59 @@
+.filials {
+    margin: 0 auto;
+    min-height: 500px;
+    max-width: 1150px;
+}
+.filialsWrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.tittle {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    color: #002046;
+}
+.divForLinks {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 20px;
+    max-width: 1150px;
+}
+.links {
+    height: 70px;
+    width: 70vw;
+    max-width: 50vw;
+    padding-top: 24px;
+    text-align: center;
+    background: gainsboro;
+    box-shadow: 0 4px 11px 3px rgba(123, 136, 255, 0.1);
+    transition: .3s;
+    border-radius: 14px;
+    margin: 15px auto;
+    cursor: pointer;
+    color: #1e1e1e;
+}
+.links:hover {
+    background: #03366B;
+    box-shadow: 0px 4px 11px 3px rgba(123, 136, 255, 0.66);
+    color: #f1faff;
+}
+@media (max-width: 1200px) {
+    .filialsWrapper {
+        max-width: 970px;
+    }
+}
+@media (max-width: 992px) {
+    .filialsWrapper {
+        max-width: 750px;
+    }
+}
+@media (max-width: 767px) {
+    .filialsWrapper {
+        max-width: none;
+    }
+}
+
+
